@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="content-Type" content="text/html; charset=utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+ <meta name="apple-mobile-web-app-capable" content="yes" />
+ <script type='text/javascript' src='../js/cordova-1.5.0.js'></script>
+  <script src="../js/jquery.min.js"></script>
+ <script src="../js/jquery.easing.1.3.js"></script>
+ <script src="../js/jquery.nicescroll.min.js"></script>
+ <script>
+ $(document).ready(function() {    
+	$("#main-content").niceScroll("#main-content iframe",{boxzoom:true});
+  });
+ </script>
+     <link rel="stylesheet" href="../css/master.css" type="text/css" media="screen" title="no title" charset="utf-8">  
+</head>
+<body>
+<header> <h1>Menú </h1> </header>
+<div id="wrapper_menu">
+<div id="main-content_menu">
+<iframe id="frame_menu" src="http://elracovalterna.com/movil/ofertas.asp"> </iframe>
+</div>
+</div> 
+<footer>
+	<ul id="tab-bar">
+    <li>
+        <a href="../../index.html">Inicio</a>
+    </li>
+ 
+    <li>
+        <a href="donde.html">Donde</a>
+    </li>
+ 
+    <li>
+        <a href="menu.html">Carta</a>
+    </li>
+    <li>
+        <a href="pedido.html">Pedido</a>
+    </li>
+</ul>
+</footer>
+</body>
+</html>
